@@ -1,0 +1,52 @@
+[
+  {
+    "keyword": "Feature",
+    "name": "Validate the google web page title",
+    "line": 1,
+    "id": "validate-the-google-web-page-title",
+    "tags": [],
+    "uri": "GoogleFeature.feature",
+    "elements": [
+      {
+        "id": "validate-the-google-web-page-title;user-valdiates-the-title-of-the-page",
+        "keyword": "Scenario",
+        "line": 3,
+        "name": "User valdiates the title of the page",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "User launches the google website",
+            "result": {
+              "status": "passed",
+              "duration": 1657000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 5,
+            "name": "User gets the title of the page for validation",
+            "result": {
+              "status": "passed",
+              "duration": 13000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 6,
+            "name": "User checks for the textbox in the page",
+            "result": {
+              "status": "passed",
+              "duration": 18000000
+            }
+          }
+        ]
+      }
+    ]
+  }
+]
